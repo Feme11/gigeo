@@ -1,0 +1,42 @@
+.perfil-yuki {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+h3 {
+  margin: 0;
+  font-size: $x-large;
+  font-weight: bold;
+}
+
+.seguidores {
+  font-size: $small;
+}
+
+.container-fluid {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+h2 {
+  font-size: $xx-large;
+}
+.card {
+  border: none;
+}
+.card-img-top{
+  border-radius: 0;
+}
+.card-title {
+  font-weight: bold;
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+.card-text {
+  font-size: $medium;
+}
+
+.card-body {
+  padding: 0;
+}

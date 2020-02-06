@@ -9875,5 +9875,97 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.btn-sr {
+  background-color: #ef6461;
+  border-radius: 0;
+  color: #fff;
+}
+
+.btn-vsc {
+  background-color: #93dce5;
+  border-radius: 0;
+  color: #fff;
+}
+
+.perfil-yuki {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.seguidores {
+  font-size: 14px;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+h2 {
+  font-size: 21.5px;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-title {
+  font-weight: bold;
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+sup {
+  font-size: 10px;
+  top: -1.5rem;
+}
+
+.navbar-toggler-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-light {
+  color: #000000 !important;
+}
+
+.fas {
+  color: #000000;
+}
+
+header {
+  height: 16rem;
+  background-image: url("../img/image-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 /*# sourceMappingURL=style.css.map */
