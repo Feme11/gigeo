@@ -1,16 +1,16 @@
-.perfil-yuki {
+.yuki__columna1__img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
 
-h3 {
+.yuki__columna2__title {
   margin: 0;
   font-size: $x-large;
   font-weight: bold;
 }
 
-.seguidores {
+.yuki__columna2__followers {
   font-size: $small;
 }
 
@@ -18,7 +18,7 @@ h3 {
   padding-left: 4rem;
   padding-right: 4rem;
 }
-h2 {
+.main__title {
   font-size: $xx-large;
 }
 .card {
@@ -26,6 +26,9 @@ h2 {
 }
 .card-img-top{
   border-radius: 0;
+}
+.card__title {
+  text-decoration: none;
 }
 .card-title {
   font-weight: bold;

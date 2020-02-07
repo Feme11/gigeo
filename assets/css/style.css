@@ -9875,6 +9875,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 .btn-sr {
   background-color: #ef6461;
   border-radius: 0;
@@ -9887,19 +9895,19 @@ h3 {
   color: #fff;
 }
 
-.perfil-yuki {
+.yuki__columna1__img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
 
-h3 {
+.yuki__columna2__title {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
 }
 
-.seguidores {
+.yuki__columna2__followers {
   font-size: 14px;
 }
 
@@ -9908,7 +9916,7 @@ h3 {
   padding-right: 4rem;
 }
 
-h2 {
+.main__title {
   font-size: 21.5px;
 }
 
@@ -9918,6 +9926,10 @@ h2 {
 
 .card-img-top {
   border-radius: 0;
+}
+
+.card__title {
+  text-decoration: none;
 }
 
 .card-title {
