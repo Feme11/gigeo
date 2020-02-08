@@ -1,7 +1,16 @@
 .navbar-brand {
   font-size: $xxx-large;
 }
-
+@media screen and (min-width: 601px) {
+  .navbar-brand {
+    padding-left: 3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+  .navbar-brand{
+    padding-left: 1rem;
+  }
+}
 sup {
   font-size: $xx-small;
   top: -1.5rem;

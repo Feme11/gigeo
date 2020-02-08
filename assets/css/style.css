@@ -9968,6 +9968,16 @@ img {
   font-size: 35px;
 }
 
+@media screen and (min-width: 601px) {
+  .navbar-brand {
+    padding-left: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    padding-left: 1rem;
+  }
+}
 sup {
   font-size: 10px;
   top: -1.5rem;
