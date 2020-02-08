@@ -5,6 +5,17 @@
   border-radius: 50%;
 }
 
+@media screen and (min-width: 601px) {
+  .yuki__columna1__img {
+    margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+   .yuki__columna1__img {
+    margin-left: 1rem;
+  }
+}
+
 .yuki__columna2__title {
   margin: 0;
   font-size: $x-large;
