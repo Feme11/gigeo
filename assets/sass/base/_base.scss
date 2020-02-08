@@ -1,0 +1,7 @@
+.link {
+color: $black;
+@include hover(){
+    color: $softred;
+    text-decoration: none;
+  }
+}

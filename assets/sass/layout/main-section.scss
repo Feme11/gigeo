@@ -1,3 +1,4 @@
+
 .yuki__columna1__img {
   width: 60px;
   height: 60px;
@@ -8,6 +9,7 @@
   margin: 0;
   font-size: $x-large;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .yuki__columna2__followers {
@@ -23,13 +25,12 @@
 }
 .card {
   border: none;
+  padding-bottom: 2rem;
 }
 .card-img-top{
   border-radius: 0;
 }
-.card__title {
-  text-decoration: none;
-}
+
 .card-title {
   font-weight: bold;
   padding-top: 1rem;

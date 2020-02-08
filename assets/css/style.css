@@ -9875,6 +9875,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.link {
+  color: #000000;
+}
+.link:hover {
+  color: #ef6461;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
 }
@@ -9905,6 +9913,7 @@ img {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .yuki__columna2__followers {
@@ -9922,14 +9931,11 @@ img {
 
 .card {
   border: none;
+  padding-bottom: 2rem;
 }
 
 .card-img-top {
   border-radius: 0;
-}
-
-.card__title {
-  text-decoration: none;
 }
 
 .card-title {
