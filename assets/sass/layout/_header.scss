@@ -1,7 +1,16 @@
 header {
-  height: 16rem;
   background-image: url("../img/image-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+}
+@media screen and (min-width: 601px) {
+  header {
+    height: 16rem;
+    }
+}
+@media screen and (max-width: 600px) {
+  header {
+    height: 4rem;
+  }
 }
