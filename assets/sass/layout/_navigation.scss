@@ -6,6 +6,7 @@ sup {
   font-size: $xx-small;
   top: -1.5rem;
 }
+
 .navbar-toggler-icon {
   width: 2rem;
   height: 2rem;
@@ -21,4 +22,7 @@ sup {
 
 .fas {
   color: $black;
+  @include hover(){
+    color: $verysoftcyan;
+  }
 }

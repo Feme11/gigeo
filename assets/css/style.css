@@ -9971,6 +9971,9 @@ sup {
 .fas {
   color: #000000;
 }
+.fas:hover {
+  color: #93dce5;
+}
 
 header {
   height: 16rem;
