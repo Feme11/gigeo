@@ -16,12 +16,26 @@
   font-size: $small;
 }
 
-.container-fluid {
-  padding-left: 4rem;
-  padding-right: 4rem;
+@media screen and (min-width: 601px) {
+  .container-fluid {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    }
+}
+@media screen and (max-width: 600px) {
+   .container-fluid{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 .main__title {
   font-size: $xx-large;
+}
+
+@media screen and (max-width: 600px) {
+   .main__title{
+    text-align: center;
+  }
 }
 .card {
   border: none;

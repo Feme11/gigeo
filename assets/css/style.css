@@ -9920,15 +9920,27 @@ img {
   font-size: 14px;
 }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  padding-left: 4rem;
-  padding-right: 4rem;
+@media screen and (min-width: 601px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
-
+@media screen and (max-width: 600px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 .main__title {
   font-size: 21.5px;
 }
 
+@media screen and (max-width: 600px) {
+  .main__title {
+    text-align: center;
+  }
+}
 .card {
   border: none;
   padding-bottom: 2rem;
